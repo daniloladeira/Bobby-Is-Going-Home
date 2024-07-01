@@ -34,7 +34,7 @@ Esse projeto/jogo foi desenvolvido por mim como trabalho final da disciplina **A
 
 ## Uso
 1. Abra o arquivo "BobbyIsGoingHome" no simulador baixado.
-2. Na aba "Tools" clique na função "Bitmap Display" e logo após "Keyboard and Display MMIO Simulator".
+2. Na aba "Tools" clique na função "Bitmap Display" e logo após "Keyboard and Display MMIO Simulator". **OBS: mude para 4 unidades nas caixas "Unit Width in Pixels" e "Unit Height in Pixels"**
 3. Nessas duas novas janelas existe um botão no canto inferior esquerdo chamado "Connect to MIPS", clique nesse botão tanto no Bitmap Display quanto no Keyboard.
 4. Para rodar o código no simulador você deve procurar na faixa de funções um ícone com duas ferramentas cruzadas ( Assemble the current file and clear breakpoints ).
 5. Clique no botão logo a direita para que tudo funcione ( Run the current program ). 
