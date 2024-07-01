@@ -19,7 +19,7 @@ Esse projeto/jogo foi desenvolvido por mim como trabalho final da disciplina **A
 
 ## Instalação
 
-**Código fonte:** [Bobby is Going Home.asm](BobbyIsGoinHome.asm)
+**Código fonte:** [Bobby is Going Home.asm](BobbyIsGoingHome.asm)
 
 1. Baixe o simulador oficial
     Baixe o simulador MARS a partir do [site oficial](http://courses.missouristate.edu/KenVollmar/mars/).
