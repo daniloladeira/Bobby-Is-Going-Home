@@ -9,9 +9,19 @@
 #rodape = 00368E
 #detalhes rodape = FFC000, 6573F5
 
+#-------------COMO JOGAR-----------
+# W - PULO
+# A - ANDAR PARA TR√ÅS
+# D - ANDAR PARA FRENTE
+
+# Vence se chegar na casa
+# Perde se cair no buraco
+#----------------------------------
+
+
 cenario:
-	addi $8, $0, 0x6573F5 #mudanÁa de cor
-	lui $10, 0x1001 #pegando a posiÁ„o inicial ( prim. pixel da tela )
+	addi $8, $0, 0x6573F5 #mudan√ßa de cor
+	lui $10, 0x1001 #pegando a posi√ß√£o inicial ( prim. pixel da tela )
 	addi $10, $10, 0 #continuando no primeiro pixel da tela
 	addi $9, $0, 384 #quantidade de pixeis pintados
 	jal linha_horizontal
@@ -1267,7 +1277,7 @@ cenario:
 cores_sonic:
 	addi $17, $0, 0x0012C0	# Azul sonic
 	addi $18, $0, 0xF4B084	# Pele sonic
-	addi $19, $0, 0xFF0000  # TÍnis sonic
+	addi $19, $0, 0xFF0000  # T√™nis sonic
 
 cores_passaro:
 	addi $22, $0, 0xC28428 #pelo escuro
@@ -1283,10 +1293,10 @@ p:
 	
 enderecos:
 	addi $5, $5, 0
-	lui $10, 0x1001 # endereÁo sonic
+	lui $10, 0x1001 # endere√ßo sonic
 	addi $10, $10, 24108
 	addi $13, $10, 0
-	lui $16, 0x1001 #endereÁo passaro
+	lui $16, 0x1001 #endere√ßo passaro
 	addi $16, $16, 4076
 	addi $20, $16, 0
 
@@ -1294,7 +1304,7 @@ enderecos:
 sonic:
 	addi $17, $0, 0x0012C0	# Azul sonic
 	addi $18, $0, 0xF4B084	# Pele sonic
-	addi $19, $0, 0xFF0000  # TÍnis sonic
+	addi $19, $0, 0xFF0000  # T√™nis sonic
 
 
 	addi $10, $13, 0 # o 13 vai no lugar do 16
@@ -1959,20 +1969,20 @@ perdeu:
 
 de_novo:
 	addi $10, $0, 0
-	lui $10, 0x1001 #pegando a posiÁ„o inicial ( prim. pixel da tela )
+	lui $10, 0x1001 #pegando a posi√ß√£o inicial ( prim. pixel da tela )
 	addi $12, $0, 0
 	addi $12, $0, 8192
 	addi $13, $0, 0
 	
 k:
 	
-	beq $12, $13, vitoria	# $10 tem o n˙mero total de bits, caso seja 0, ele sai do laÁo
-	sw $27, 0($10)		# pinta o primeiro bit de memÛria (o 0x1001) da cor $18
+	beq $12, $13, vitoria	# $10 tem o n√∫mero total de bits, caso seja 0, ele sai do la√ßo
+	sw $27, 0($10)		# pinta o primeiro bit de mem√≥ria (o 0x1001) da cor $18
 	
 	
-	addi $10, $10, 4	# bit de memÛria anda de 4 em 4, ent„o adicionamos 4 para ir pintando 1 por 1
+	addi $10, $10, 4	# bit de mem√≥ria anda de 4 em 4, ent√£o adicionamos 4 para ir pintando 1 por 1
 	addi $13, $13, 1	# somar 1 para que chegue no 10
-	j k		# voltar para o laÁo
+	j k		# voltar para o la√ßo
 	
 vitoria:
 	addi $9, $0, 0
