@@ -4,7 +4,7 @@
 ![Info](https://img.shields.io/badge/JOGO%20-8A2BE2)
 ![Disciplina](https://img.shields.io/badge/Arquitetura%20de%20Computadores-2F4F2F)
 
-Este repositório contém o código-fonte de um jogo desenvolvido em assembly MIPS, utilizando o simulador MARS. O projeto foi criado como parte da disciplina **Arquitetura de Computadores** (Cód. TEC.0017) do Instituto Federal do Rio Grande do Norte.
+Este repositório contém o projeto de um jogo desenvolvido em assembly MIPS, utilizando o simulador MARS. Foi criado como parte da disciplina **Arquitetura de Computadores** (Cód. TEC.0017) do Instituto Federal do Rio Grande do Norte.
 
 ## Índice
 
