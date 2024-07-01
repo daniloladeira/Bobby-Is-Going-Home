@@ -3,6 +3,7 @@
 ![Versão](https://img.shields.io/badge/Versão-Final-blue)
 ![Info](https://img.shields.io/badge/JOGO%20-8A2BE2)
 ![Disciplina](https://img.shields.io/badge/Arquitetura%20de%20Computadores-2F4F2F)
+![IDE](https://img.shields.io/badge/MIPS%20Mars-FF6400)
 
 Este repositório contém o projeto de um jogo desenvolvido em assembly MIPS, utilizando o simulador MARS. Foi criado como parte da disciplina **Arquitetura de Computadores** (Cód. TEC.0017) do Instituto Federal do Rio Grande do Norte.
 
@@ -21,8 +22,8 @@ Esse projeto/jogo foi desenvolvido por mim como trabalho final da disciplina **A
 
 **Código fonte:** [Bobby is Going Home.asm](BobbyIsGoingHome.asm)
 
-1. Baixe o simulador oficial
-    Baixe o simulador MARS a partir do [site oficial](http://courses.missouristate.edu/KenVollmar/mars/).
+1. Baixe o simulador
+   MARS a partir do [site oficial](http://courses.missouristate.edu/KenVollmar/mars/).
    
 2. Extraia o arquivo zipado em um diretório de sua escolha.
 
@@ -32,7 +33,11 @@ Esse projeto/jogo foi desenvolvido por mim como trabalho final da disciplina **A
     ```
 
 ## Uso
-Aqui será descrito o uso correto do código.
+1. Abra o arquivo "BobbyIsGoingHome" no simulador baixado.
+2. Na aba "Tools" clique na função "Bitmap Display" e logo após "Keyboard and Display MMIO Simulator".
+3. Nessas duas novas janelas existe um botão no canto inferior esquerdo chamado "Connect to MIPS", clique nesse botão tanto no Bitmap Display quanto no Keyboard.
+4. Para rodar o código no simulador você deve procurar na faixa de funções um ícone com duas ferramentas cruzadas ( Assemble the current file and clear breakpoints ).
+5. Clique no botão logo a direita para que tudo funcione ( Run the current program ). 
 
 ## Contato
 
