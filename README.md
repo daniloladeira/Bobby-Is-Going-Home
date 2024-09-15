@@ -24,13 +24,13 @@ Esse projeto/jogo foi desenvolvido por mim como trabalho final da disciplina **A
 
 1. Baixe o simulador
    MARS a partir do [site oficial](http://courses.missouristate.edu/KenVollmar/mars/).
-   
-2. Extraia o arquivo zipado em um diretório de sua escolha.
 
-3. Clone este repositório:
+2. Clone este repositório:
     ```bash
     git clone https://github.com/daniloladeira/Bobby-Is-Going-Home
     ```
+      
+3. Extraia o arquivo zipado em um diretório de sua escolha.
 
 ## Uso
 1. Abra o arquivo "BobbyIsGoingHome" no simulador baixado.
